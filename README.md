@@ -65,7 +65,7 @@ pip install pandas matplotlib openpyxl
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 
@@ -91,7 +91,7 @@ python main.py
 
 ---
 
-## 📄 Generated Excel Report
+##  Generated Excel Report
 
 The output Excel file contains:
 
@@ -113,7 +113,7 @@ Visual representation of summarized data.
 
 ---
 
-## 📊 Sample Dataset
+##  Sample Dataset
 
 The included dataset simulates real-world electronic product sales containing:
 
@@ -130,7 +130,7 @@ This dataset demonstrates business analytics and reporting workflows.
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 This project showcases:
 
@@ -142,7 +142,7 @@ This project showcases:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Multiple chart types
 * Dashboard interface
@@ -152,12 +152,8 @@ This project showcases:
 
 ---
 
-## 👨‍💻 Author
+## reason for devoloping
 
 Developed as an academic project demonstrating real-world data analysis and automated reporting using Python.
 
 ---
-
-## ⭐ If you like this project
-
-Consider giving the repository a star ⭐.
