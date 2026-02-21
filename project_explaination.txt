@@ -1,0 +1,156 @@
+# Excel Report Generator using Python
+
+## Project Overview
+
+The Excel Report Generator is a desktop-based data analysis application developed using Python. The project automates the process of transforming raw CSV data into a structured and professionally formatted Excel report. It provides statistical summaries, pivot table analysis, and graphical visualizations through an easy-to-use graphical interface.
+
+The application is designed to reduce manual data processing effort and demonstrate practical usage of Python libraries for real-world data engineering and reporting tasks.
+
+---
+
+## Objective
+
+The main objective of this project is to:
+
+* Read real-world dataset files in CSV format
+* Perform automated data analysis
+* Generate statistical summaries
+* Create pivot tables for aggregated insights
+* Visualize data using charts
+* Export results into a formatted Excel report
+* Provide a user-friendly GUI for interaction
+
+---
+
+## Features
+
+* Graphical User Interface built using Tkinter
+* CSV file selection through file dialog
+* Automatic detection of numeric and categorical columns
+* Statistical calculations including:
+
+  * Total
+  * Average
+  * Maximum
+  * Minimum
+  * Standard Deviation
+* Pivot table generation for summarized analysis
+* Bar chart visualization using Matplotlib
+* Multi-sheet Excel report generation
+* User-selected save location
+* Automatic opening of generated Excel report
+
+---
+
+## Technologies Used
+
+| Technology | Purpose                            |
+| ---------- | ---------------------------------- |
+| Python     | Core programming language          |
+| Tkinter    | GUI development                    |
+| Pandas     | Data processing and analysis       |
+| Matplotlib | Data visualization                 |
+| OpenPyXL   | Excel file creation and formatting |
+
+---
+
+## Project Workflow
+
+1. User launches the application.
+2. User selects a CSV dataset file.
+3. Program reads and processes the data.
+4. Numeric columns are analyzed automatically.
+5. Statistical summary is generated.
+6. Pivot table is created using categorical data.
+7. A bar chart visualization is produced.
+8. User selects a save location.
+9. Excel report is generated with multiple sheets.
+10. Report opens automatically after creation.
+
+---
+
+## Excel Report Structure
+
+The generated Excel file contains:
+
+* **Sheet 1 – Raw Data**
+
+  * Original dataset imported from CSV
+
+* **Sheet 2 – Summary**
+
+  * Statistical metrics for numeric columns
+
+* **Sheet 3 – Pivot Table**
+
+  * Aggregated analysis based on category data
+
+* **Sheet 4 – Bar Chart**
+
+  * Visual representation of pivot results
+
+---
+
+## Dataset Description
+
+The sample dataset represents real-world electronic product sales data including:
+
+* Order ID
+* Date
+* Region
+* Salesperson
+* Product Category
+* Units Sold
+* Unit Price
+* Revenue
+
+The dataset simulates business sales transactions and is suitable for demonstrating reporting and analytics workflows.
+
+---
+
+## How to Run the Project
+
+1. Install required libraries:
+
+   pip install pandas matplotlib openpyxl
+
+2. Run the Python script:
+
+   python main.py
+
+3. Select a CSV file when prompted.
+
+4. Choose the location to save the Excel report.
+
+5. The generated report will open automatically.
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* GUI application development in Python
+* Data cleaning and preprocessing
+* Automated report generation
+* Data visualization techniques
+* Excel automation using Python
+* Practical data engineering workflow implementation
+
+---
+
+## Future Enhancements
+
+* Multiple chart types
+* Dynamic pivot selection
+* Dashboard-style interface
+* Support for large datasets
+* Export to PDF reports
+
+---
+
+## Author
+
+Developed as an academic project to demonstrate Python-based data analysis and reporting automation.
+
+---
